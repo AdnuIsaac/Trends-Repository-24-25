@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preliminary Examination [Barbosa]</title>
+</head>
+<style>
+    table, th, td{
+        padding: 10px;
+        margin: auto;
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    th, td{
+        text-align: center;
+    }
+    .enumerations li{
+        line-height: 20px;
+    }
+    #leftHeader, #personalInformation, #educationalHistory{
+        text-align: left;
+    }
+    #yourImage{
+        box-shadow: 0px 0px 8px black;
+        text-align: center;
+        border-radius: 100%;
+        width: 200px;
+    }
+    #personalInformation{
+        list-style-type: none;
+    }
+    #personalCell{
+        padding-right: 30px;
+    }
+    #subTable td, table{
+        padding: 20px;
+        border: none;
+    }
+    #subTable td{
+        border-right: 1px solid black;
+        width: 150px;
+    }
+    #subTable img{
+        padding: 0px 50px;
+        clip-path: circle();
+        width: 100px;
+        height: 100px;
+    }
+    #subTable td:last-child{
+        border-right: none;
+    }
+    #subTable h3{
+        margin-bottom: 5px;
+    }
+    #mingmingcookies{
+        transform: scale(1.5);
+    }
+</style>
+<body>
+    <table id="mainTable">
+        <tr>
+            <th class="topmost" id="rightHeader" colspan="2"><h1>John Isaac Barbosa</h1></th>
+        </tr>
+        <tr>
+            <td id="personalCell">
+                <img id="yourImage" src="Images/202208677.jpg"><br>
+                <ul id="personalInformation">
+                    <li><b>Address:</b> Kilometer 9, Barangay Pacol, Naga City</li>
+                    <li><b>Cellphone Number:</b> 0967-244-4027</li>
+                    <li><b>Email:</b> jibarbosa@gbox.adnu.edu.ph</li>
+                </ul>
+            </td>
+            <td id="educationalHistory">
+                <h2>Personal Statement</h2>
+                <p>Hi! I'm a young and hungry lad with a creative mind and a <br>
+                    determined spirit ready to face the challenges of another <br>
+                    day. 
+                </p>
+                <hr>
+                <h2>Educational History</h2>
+                <ol class="enumerations">
+                    <li>Rosario V. Maramba Elementary School (2013 - 2016) <br>
+                        - Graduated with Honors</li>
+                    <li>Camarines Sur National High School (2016 - 2022) <br>
+                        - Graduated with Honors</li>
+                    <li>Ateneo De Naga University (2022 - <i>Present</i>)</li>
+                </ol>
+                <hr>
+                <h2>General and Technical Skills</h2>
+                <ol>
+                    <li>Solid C++ Fundamentals</li>
+                    <li>Capable Business Strategist and Operations Manager</li>
+                    <li>Skilled Davinci Resolve Video Editor</li>
+                </ol>
+                <hr>
+                <h2>References</h2>
+                <ol class="enumerations">
+                    <li>Kane Beringuela from Ateneo De Naga University<br>
+                        krberinguela@gbox.adnu.edu.ph | 0909-777-2407
+                    </li>
+                    <li>Sarah Barbosa from Mama Sarah's Lettuce Garden<br>
+                        sbbarbosa@gmail.com | 0906-350-0277
+                    </li>
+                    <li>Kate Catherine Clarito from Ming-Ming Creatives<br>
+                        kcclarito@gmail.com | 0981-410-1047
+                    </li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h1>Work Experience</h1>
+                <div>
+                    <table id="subTable">
+                        <tr>
+                            <td><img src="Images/mamasarahslogo.jpg"><br>
+                                <h3>Mama Sarah's Lettuce Garden</h3>
+                                <h4>General Manager<br>
+                                    2021 - 2023</h4>
+                            </td>
+                            <td><img src="Images/catnipcreatives.jpg"><br>
+                                <h3>Catnip Creatives Philippines</h3>
+                                <h4>Head Video Editor <br>
+                                    (2023 - 2024)</h4>
+                            </td>
+                            <td><img src="Images/mingmingcookies.jpg" id="mingmingcookies"><br>
+                                <h3>Ming-Ming Cookies Naga</h3>
+                                <h4>Founder and Head Baker <br>
+                                    (2025 - <i>Present</i>)</h4>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
